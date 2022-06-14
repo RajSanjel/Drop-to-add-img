@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+main {
+    display: grid;
+    place-items: center;
+
+}
+
+.dropArea {
+    border: 4px dashed black;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+
+}
+
+.text {
+    width: 20em;
+    height: 10em;
+    font-size: 1.2rem;
+    color: black;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.uploaded img{
+    width: 500px;
+    margin-top: 2rem;   
+    margin-bottom: 2rem;
+    border: 0.5px solid black;
+}
+.uploaded{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    margin-top: 4rem;
+}
+.valid {
+    background-color: green;
+}
+.invalid {
+    background-color: red;
+}
+.browse{
+    color: rgb(0, 191, 255);
+}
+.active {
+    border: 2px solid black;
+}
